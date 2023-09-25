@@ -9,5 +9,9 @@ solution= select employee_id from employees where salary<30000 and manager_id no
 approach=> subquerry written in 'where not in' will return whole row column for checking. <br>
 /////////////////////////<br>
 q 2 => 1667. Fix Names in a Table <br> 
-ans => select user_id,concat(upper(substr(name,1,1)),lower(substr(name,2,length(name) ) )) name from users order by user_id;
+ans => select user_id,concat(upper(substr(name,1,1)),lower(substr(name,2,length(name) ) )) name from users order by user_id;<br>
+//////////////////////////////<br>
+q 3=>
+
+
 
